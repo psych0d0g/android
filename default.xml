@@ -52,7 +52,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" remote="aosp" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
-  <project path="device/hardkernel/odroidxu3" name="voodik/android_device_hardkernel_odroidxu3" revision="cm-14.1_5422" groups="pdk" >
+  <project path="device/hardkernel/odroidxu3" name="psych0d0g/android_device_hardkernel_odroidxu3" revision="cm-14.1_5422" groups="pdk" >
   <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
